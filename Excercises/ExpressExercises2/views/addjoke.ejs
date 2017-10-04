@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <p>Welcome to
+    <%= title %>
+  </p>
+
+  <form action="/storejoke" method="post">
+    <input type="text" name="joke" id="joke" />
+    <button type="submit">Submit</button>
+  </form>
+
+  <a href="/">Index</a>
+  <a href="/joke">Joke</a>
+  <a href="/jokes">All Jokes</a>
+</body>
+
+</html>

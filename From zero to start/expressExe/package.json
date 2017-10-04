@@ -1,0 +1,15 @@
+{
+  "name": "expressexe",
+  "version": "1.0.0",
+  "description": "part1",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "author": "Poul",
+  "license": "ISC"
+}
